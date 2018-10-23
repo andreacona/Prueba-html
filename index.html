@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <script type="text/javascript" src="js/jquery.js">
+
+  </script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <style media="screen">
+    /* Extra small devices (phones, less than 768px) */
+        /* No media query since this is the default in Bootstrap */
+
+        /* Small devices (tablets, 768px and up) */
+        @media (min-width: @screen-sm-min) { }
+
+        /* Medium devices (desktops, 992px and up) */
+        @media (min-width: @screen-md-min) {  }
+
+        /* Large devices (large desktops, 1200px and up) */
+        @media (min-width: @screen-lg-min) {  }
+
+      .navbar {
+        margin-bottom: 0px;
+      }
+
+      .contenedor1{
+        margin-top: 33px;
+      }
+
+      .contenedor2{
+        height: 380px;
+        padding-top: 25px;
+        padding-left: 0px;
+        margin-bottom: 0px;
+      }
+
+      .contenedor3{
+        height: 450px;
+        margin: 0px;
+        border-top: 1px solid black;
+
+      }
+      .banner{
+        background-image: url(images/banner.jpg);
+        background-size: 100%;
+        height: 450px;
+        border-bottom: 1px solid black;
+        image: no-repeat;
+        margin-bottom: 0px;
+      }
+
+      .actividades{
+
+        background-size: 100%;
+        height: 820px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        margin-bottom: 0px;
+
+
+      }
+      .navbar-default .navbar-nav>li>a {
+      color: #5189cf;
+
+      }
+
+    .container-fluid {
+      padding-left: 0px;
+    }
+
+      .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+       color: #5189cf;
+      }
+
+    .subtitulo1{
+    font-size: 7px;
+    }
+
+    .subtitulo{
+      padding-bottom: 40px;
+    }
+
+    .titulosgaleria{
+      text-align: center;
+      font-size: 18px;
+    }
+
+    button{
+      padding: 8px;
+      border-radius: 5px;
+      color: white;
+      border: none;
+    }
+
+    .boton1{
+     background-color: red;
+     color: white;
+
+    }
+
+
+    .botones{
+      margin: auto;
+    }
+
+    .container .jumbotron, .container-fluid .jumbotron {
+      border-radius: 0px;
+    }
+
+    footer {
+    height: 250px;
+    width: 100%;
+    background-color: #2f343b;
+
+    }
+
+    </style>
+  <title>Home</title>
+</head>
+
+<body>
+  <nav>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img alt="Brand" src="images/logo.jpeg" style="width: 50px;">
+        </div>
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Index</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Noticias</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </nav>
+
+
+  <div class="jumbotron banner">
+    <div class="container contenedor1">
+      <h1>Fundación <br> Niño y Cáncer</h1 style="color:white;">
+      <p class="subtitulo1">Todas las sonrisas son gratis, <br> pero unas cuestan mas que otras</p>
+      <div class="botones">
+        <button class="boton1">Colabora Aquí</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron contenedor2">
+    <!--sección como depositar-->
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="subtitulo" style="margin-left: 491px;">¿Cómo colaborar?</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-2">
+          <div class="thumbnail">
+            <img src="images/logo.jpeg" alt="" class="img-responsive" style="width:70px; padding-top:14px; padding-bottom:14px;">
+            <h2 class="titulosgaleria">Siendo Socio</h2>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="thumbnail">
+            <img src="images/logo.jpeg" alt="" class="img-responsive" style="width:70px; padding-top:14px; padding-bottom:14px;">
+            <img src="images/foto3.jpg" alt="" class="img-responsive">
+            <h2 class="titulosgaleria">Depositando</h2>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="thumbnail">
+            <img src="images/logo.jpeg" alt="" class="img-responsive" style="width:70px; padding-top:14px; padding-bottom:14px;">
+            <img src="images/foto3.jpg" alt="" class="img-responsive">
+            <h2 class="titulosgaleria">Alcancías</h2>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="thumbnail">
+            <img src="images/logo.jpeg" alt="" class="img-responsive" style="width:70px; padding-top:14px; padding-bottom:14px;">
+            <img src="images/foto3.jpg" alt="" class="img-responsive">
+            <h2 class="titulosgaleria">Coronas de caridad</h2>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="thumbnail">
+            <img src="images/logo.jpeg" alt="" class="img-responsive" style="width:70px; padding-top:10px;">
+            <img src="images/foto3.jpg" alt="" class="img-responsive">
+            <h2 class="titulosgaleria">Donaciones de empresas</h2>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="thumbnail">
+            <img src="images/logo.jpeg" alt="" class="img-responsive" style="width:70px; padding-top:10px;">
+            <img src="images/foto3.jpg" alt="" class="img-responsive">
+            <h2 class="titulosgaleria">Donaciones de Particulares</h2>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron actividades">
+    <!--sección ACTIVIDADES-->
+    <div class="container">
+      <h2 style="padding-bottom: 40px; margin-left: 486px;">Actividades</h2>
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="images/bg3.jpeg" alt="" class="img-responsive" style="width: 300px;padding-top:14px; padding-bottom:14px;">
+              <h2 class="titulosgaleria">Montaña de la Alegría</h2>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="images/bg3.jpeg" alt="" class="img-responsive" style="width: 300px;padding-top:14px; padding-bottom:14px;">
+              <img src="images/foto3.jpg" alt="" class="img-responsive">
+              <h2 class="titulosgaleria">Cenas de Navidad</h2>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="images/bg3.jpeg" alt="" class="img-responsive" style="width: 300px;padding-top:14px; padding-bottom:14px;">
+              <img src="images/foto3.jpg" alt="" class="img-responsive">
+              <h2 class="titulosgaleria">Campamento por la Vida</h2>
+            </div>
+          </div>
+
+        </div>
+        <!--Cierre col-md/-->
+      </div><!-- Cierre row/-->
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="col-md-4 col-md-offset-2">
+            <div class="thumbnail">
+              <img src="images/bg3.jpeg" alt="" class="img-responsive" style="width: 300px;padding-top:14px; padding-bottom:14px;">
+              <img src="images/foto3.jpg" alt="" class="img-responsive">
+              <h2 class="titulosgaleria">Coronas de Caridad</h2>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="images/bg3.jpeg" alt="" class="img-responsive" style="width: 300px;padding-top:14px; padding-bottom:14px;">
+              <img src="images/foto3.jpg" alt="" class="img-responsive">
+              <h2 class="titulosgaleria">Torneo Futbolito y Porristas</h2>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--Cierre Container Actividades/-->
+  </div>
+  <!--Cierre contenedor Actividades/-->
+</body>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-6">
+          <ul>
+            <li>
+              <h4 style="padding-top: 40px; color: white;">Siguenos en nuestras redes</h3>
+            </li>
+            <li><img alt="Brand" src="images/facebook.png" style="width: 30px; padding-top:10px;"></li>
+            <li><img alt="Brand" src="images/instagram.png" style="width: 30px; padding-top:10px;"></li>
+            <li><img alt="Brand" src="images/twiter.png" style="width: 30px; padding-top:10px;"></li>
+          </ul>
+        </div>
+
+        <div class="col-md-6" style="padding-left: 300px;">
+          <h4 style="padding-top: 40px; color: white;">Contacto</h3>
+            <p style="padding-top: 20px; color: white;">Dirección</p>
+            <p style="padding-top: 10px; color: white;">Correo</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>
