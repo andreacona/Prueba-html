@@ -1,0 +1,139 @@
+/* Extra small devices (phones, less than 768px) */
+    /* No media query since this is the default in Bootstrap */
+
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: @screen-sm-min) { }
+
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: @screen-md-min) {  }
+
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: @screen-lg-min) {  }
+
+  .navbar {
+    margin-bottom: 0px;
+  }
+
+  .contenedor1{
+    margin-top: 33px;
+  }
+
+  .contenedor2{
+    padding-top: 25px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .contenedor3{
+    height: 450px;
+    margin: 0px;
+    border-top: 1px solid black;
+
+  }
+  .banner{
+    background-image: url(images/banner.jpg);
+    background-size: 100%;
+    height: 450px;
+    border-bottom: 1px solid black;
+    image: no-repeat;
+    margin-bottom: 0px;
+  }
+
+  .actividades{
+
+    background-size: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 0px;
+
+
+  }
+  .navbar-default .navbar-nav>li>a {
+  color: #5189cf;
+
+  }
+
+.container-fluid {
+  padding-left: 0px;
+}
+
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+   color: #5189cf;
+  }
+
+  .jumbotron p {
+      margin-bottom: 15px;
+      font-size: 15px;
+      font-weight: 200;
+  }
+.subtitulo1{
+font-size: 7px;
+}
+
+.subtitulo{
+  padding-bottom: 40px;
+}
+
+.titulo-noticias{
+  margin-top: 100px;
+}
+.titulosgaleria{
+  text-align: center;
+  font-size: 18px;
+}
+
+button{
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.boton1{
+ background-color: red;
+ color: white;
+
+}
+
+.boton-noticias{
+ background-color: red;
+ color: white;
+  padding-left: 31px;
+  padding-right: 31px;
+margin-left: 10px;
+}
+.botones{
+  margin: auto;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+  border-radius: 0px;
+}
+
+footer {
+width: 100%;
+background-color: #2f343b;
+
+}
+
+.texto-suscripcion{
+  padding-bottom: 25px;
+   color: white;
+}
+
+.suscripcion-ubicacion{
+padding-top: 40px;
+padding-bottom: 17px;
+color: white;
+
+}
+
+.redes-sociales{
+padding-top: 40px;
+color: white;
+}
+
+.iconos-redes{
+  width: 30px;
+  padding-top:25px;
+}
